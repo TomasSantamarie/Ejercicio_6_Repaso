@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity() {
         if(string.equals("FINALIZAR")) {
             findViewById<Button>(R.id.botonComFi).text = "COMENZAR"
             findViewById<EditText>(R.id.texto).isVisible = false
+            findViewById<EditText>(R.id.texto).setText("")
 
         }
 
